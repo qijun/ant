@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<useCaseDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="UMLUseCaseDiagram1">
+  <useCaseModelRootMoniker Id="60f8a012-a644-4b19-bb95-83483009fbd7" />
+  <nestedChildShapes>
+    <actorShape Id="885ea94e-20dd-4d65-9167-59b93e3c3294" absoluteBounds="1.125, 1, 0.5, 0.5" isReference="false" heightOffset="0">
+      <actorMoniker Id="9e6ce556-6baa-43fd-84db-a4f417254180" LastKnownName="Admin" />
+      <relativeChildShapes />
+    </actorShape>
+    <actorShape Id="ab1342a6-380e-4eb5-93fe-8ce22ea7e870" absoluteBounds="1, 4.5, 0.5, 0.5" isReference="false" heightOffset="0">
+      <actorMoniker Id="ab9385c2-5d13-4324-827f-6b67dd665ec9" LastKnownName=" Operators" />
+      <relativeChildShapes />
+    </actorShape>
+    <SubsystemShape Id="399dc307-bfc6-47fc-8d02-eadb27c62b48" absoluteBounds="2.625, 0.5, 3, 2.875" customColor="White">
+      <subsystemMoniker Id="af76fdb6-e924-48e0-ac33-ab0d76ae476c" LastKnownName="Subsystem1" />
+      <nestedChildShapes>
+        <useCaseShape Id="4902c4d9-168d-4f6f-84dd-078065d64ed6" absoluteBounds="3.625, 1, 1, 0.5" customColor="238, 237, 131" heightOffset="0">
+          <useCaseMoniker Id="2b9b6763-e0e2-4aca-a784-1e1c3157952b" LastKnownName="管理微信用户" />
+          <relativeChildShapes />
+        </useCaseShape>
+        <useCaseShape Id="73452891-a78b-45d7-bbb9-3cbde9feffda" absoluteBounds="3.875, 2.25, 1, 0.5" customColor="238, 237, 131" heightOffset="0">
+          <useCaseMoniker Id="e4faf698-3b26-494f-9003-b52e380eebbc" LastKnownName="UseCase1" />
+          <relativeChildShapes />
+        </useCaseShape>
+      </nestedChildShapes>
+    </SubsystemShape>
+    <SubsystemShape Id="abe12db5-ef13-4f7e-a758-4bd550a75e49" absoluteBounds="2.625, 3.375, 3, 3.25" customColor="White">
+      <subsystemMoniker Id="681700a9-f47a-4a8a-92aa-5cc362d97e82" LastKnownName="Subsystem11" />
+      <nestedChildShapes>
+        <useCaseShape Id="b1af3e9b-de42-417a-86b6-28271561753c" absoluteBounds="3.625, 3.875, 1, 0.5" customColor="238, 237, 131" heightOffset="0">
+          <useCaseMoniker Id="1e279545-7bfa-4ea3-b6e6-f28560688380" LastKnownName="接入微信账号" />
+          <relativeChildShapes />
+        </useCaseShape>
+        <useCaseShape Id="c14ec016-bac6-44dc-87e2-6ad1f64559b6" absoluteBounds="3.625, 4.75, 1, 0.5" customColor="238, 237, 131" heightOffset="0">
+          <useCaseMoniker Id="ef8144f1-9441-499c-820c-e7365cfe6f7b" LastKnownName="编辑菜单" />
+          <relativeChildShapes />
+        </useCaseShape>
+        <useCaseShape Id="8e7c9947-b9b8-4535-b499-efc16e74b962" absoluteBounds="3.625, 5.5, 1, 0.5" customColor="238, 237, 131" heightOffset="0">
+          <useCaseMoniker Id="5e63f79a-e699-497f-ab76-9177f9767b2f" LastKnownName="编辑服务接口" />
+          <relativeChildShapes />
+        </useCaseShape>
+      </nestedChildShapes>
+    </SubsystemShape>
+  </nestedChildShapes>
+</useCaseDiagram>

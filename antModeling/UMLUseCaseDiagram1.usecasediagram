@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<useCaseModelRoot xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" xmlns:dm1="http://schemas.microsoft.com/dsltools/Kernel" xmlns:dm2="http://schemas.microsoft.com/dsltools/Component" xmlns:dm3="http://schemas.microsoft.com/dsltools/UseCase" xmlns:dm4="http://schemas.microsoft.com/dsltools/Activity" xmlns:dm5="http://schemas.microsoft.com/dsltools/Interaction" xmlns:dm6="http://schemas.microsoft.com/dsltools/UmlModelLibrary" xmlns:dm7="http://schemas.microsoft.com/dsltools/UmlDiagrams" xmlns:dm8="http://schemas.microsoft.com/dsltools/ModelStore" xmlns:dm9="http://schemas.microsoft.com/dsltools/SimpleShapesModel" dslVersion="1.0.0.0" Id="60f8a012-a644-4b19-bb95-83483009fbd7" name="UMLUseCaseDiagram1" linkedPackageId="7f003dbc-efe6-4c46-b583-14dae8c44fff" xmlns="http://schemas.microsoft.com/dsltools/UseCaseModel">
+  <packagedElements>
+    <useCaseModelRootHasTypes>
+      <actor Id="9e6ce556-6baa-43fd-84db-a4f417254180" name="Admin" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="81d50c6d-e714-4ffd-8ce6-cc4cc89ef473" />
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <actor Id="ab9385c2-5d13-4324-827f-6b67dd665ec9" name=" Operators" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="55684cad-33af-4091-bc61-aaa6b76fed4a" />
+      </actor>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <subsystem Id="af76fdb6-e924-48e0-ac33-ab0d76ae476c" name="Subsystem1" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="32476232-d490-430d-8af6-4f14f82b4829" />
+      </subsystem>
+    </useCaseModelRootHasTypes>
+    <packageHasNamedElement>
+      <useCase Id="2b9b6763-e0e2-4aca-a784-1e1c3157952b" name="管理微信用户" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="073ef444-78ab-4e47-87ca-dc5ce63b808d" />
+        <subjects>
+          <subsystemMoniker Id="af76fdb6-e924-48e0-ac33-ab0d76ae476c" LastKnownName="Subsystem1" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <useCaseModelRootHasTypes>
+      <subsystem Id="681700a9-f47a-4a8a-92aa-5cc362d97e82" name="Subsystem11" isAbstract="false" isLeaf="false" isActiveClass="false">
+        <elementDefinition Id="df2d9cda-04c7-45ae-89cd-5da08d9abad7" />
+      </subsystem>
+    </useCaseModelRootHasTypes>
+    <useCaseModelRootHasTypes>
+      <useCase Id="1e279545-7bfa-4ea3-b6e6-f28560688380" name="接入微信账号" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="a9d72b77-fe42-4f44-b268-43c5b28dc6f9" />
+        <subjects>
+          <subsystemMoniker Id="681700a9-f47a-4a8a-92aa-5cc362d97e82" LastKnownName="Subsystem11" />
+        </subjects>
+      </useCase>
+    </useCaseModelRootHasTypes>
+    <packageHasNamedElement>
+      <useCase Id="ef8144f1-9441-499c-820c-e7365cfe6f7b" name="编辑菜单" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="e18a166b-a49b-4b54-a957-ac09cbfbcb26" />
+        <subjects>
+          <subsystemMoniker Id="681700a9-f47a-4a8a-92aa-5cc362d97e82" LastKnownName="Subsystem11" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="5e63f79a-e699-497f-ab76-9177f9767b2f" name="编辑服务接口" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="793efe6b-b1d7-4d12-ace6-795cf7cbabf2" />
+        <subjects>
+          <subsystemMoniker Id="681700a9-f47a-4a8a-92aa-5cc362d97e82" LastKnownName="Subsystem11" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+    <packageHasNamedElement>
+      <useCase Id="e4faf698-3b26-494f-9003-b52e380eebbc" name="UseCase1" isAbstract="false" isLeaf="false">
+        <elementDefinition Id="ef3c32f1-3732-4fec-bb95-1b0b532bd2b5" />
+        <subjects>
+          <subsystemMoniker Id="af76fdb6-e924-48e0-ac33-ab0d76ae476c" LastKnownName="Subsystem1" />
+        </subjects>
+      </useCase>
+    </packageHasNamedElement>
+  </packagedElements>
+  <package Id="7f003dbc-efe6-4c46-b583-14dae8c44fff" name="antModeling">
+    <elementDefinition Id="aa46de3d-ed13-424f-b772-61709c5537df" />
+    <profileInstances>
+      <packageHasProfileInstances Id="43db5e22-cc36-4ebc-97f2-d8a40f2e2322">
+        <profileInstance Id="e2ec58a1-8c51-4db3-9d9b-4ae61a0dc7b8" name="StandardProfileL2">
+          <elementDefinition Id="e34d544e-0fea-4ed6-ac5e-1b74119ac791" />
+        </profileInstance>
+        <elementDefinition Id="0caec977-1f8c-4ba3-a7db-8cc9ad9cc73b" />
+      </packageHasProfileInstances>
+      <packageHasProfileInstances Id="4f6f95d6-763a-485b-a627-5f1e8ec6ae52">
+        <profileInstance Id="57ce8303-7187-49c7-ab99-72a12eca6144" name="StandardProfileL3">
+          <elementDefinition Id="532ea607-fb19-44b8-8502-3351b05452be" />
+        </profileInstance>
+        <elementDefinition Id="29349502-908c-4fda-9054-c48619c59ed0" />
+      </packageHasProfileInstances>
+    </profileInstances>
+  </package>
+</useCaseModelRoot>
